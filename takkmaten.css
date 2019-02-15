@@ -1,0 +1,605 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* ------------------
+
+    GLOBAL STYLE
+
+------------------ */
+
+
+/* Home Page -----------------------------------------------*/
+
+
+header {
+    font-size: 2.5em;
+    font-family: 'Libre Baskerville', serif;
+    color: #fff;
+    background-color: #29789A;
+}
+
+
+#wrapper {
+    border: #fff solid thick;
+    background-color: #29789A; 
+}
+
+img {
+    max-width: 100%;
+}
+
+h1, p {
+    color: white;
+}
+
+.hours {
+    font-weight: bold;
+}
+
+#navcontainer {
+    clear: both;
+}
+
+#navcontainer ul
+{
+padding: .2em 0;
+margin: 0;
+list-style-type: none;
+background-color: #69ACC9;
+color: #FFF;
+width: 100%;
+font: normal 100% 'Libre Baskerville', helvetica, sans-serif;
+text-align: center;
+}
+
+li { display: inline; }
+
+li a
+{
+text-decoration: none;
+background-color: #69ACC9;
+color: #FFF;
+padding: .2em 1em;
+border-right: 1px solid #fff;
+}
+
+li a:hover
+{
+background-color: #369;
+color: #fff;
+}
+
+#active a {
+    background-color: #369;
+}
+
+body {
+    background-color: #9CCEE3;
+}
+
+
+#character {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.pastry, .cab, .cake, .ball {
+    border: 5px solid #fff;
+    border-radius: 10px;
+}
+
+footer {
+    font-style: italic;
+    font-size: 1em;
+    text-align: center;
+    clear: both;
+}
+
+
+/* About Page -----------------------------------------------*/
+
+.samantha {
+    float: left;
+    width: 240px;
+    height: auto;
+    margin: 0 20px 20px 50px;
+    border: solid 5px #fff;
+    border-radius: 100px;
+}
+
+.takk {
+    width: 740px;
+    height: auto;
+    margin: 0 0 30px 140px;
+    border: solid 5px #fff;
+    border-radius: 10px;
+}
+
+.history {
+    padding: 40px 60px 60px 0;
+}
+
+.me {
+    padding: 50px 0 50px 0;
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: bold;
+    font-family: 'Libre Baskerville', helvetica, sans-serif;
+}
+
+.character {
+    font-size: 4em;
+    float: left;
+    padding: 35px 0 0 0;
+}
+
+
+.aboutfooter {
+    border-top: 3px solid white;
+}
+
+
+/* Menu Page ------------------------------------------------*/
+
+
+
+
+.photographer{
+    width: 740px;
+    height: auto;
+    border: solid 5px #fff;
+    border-radius: 120px;
+    margin: 20px 50px 20px 140px;
+}
+
+#background-menu {
+    background-color: #29789A;
+}
+
+
+
+/* Gallery Page ---------------------------------------------*/
+
+
+
+.norway-video {
+    text-align: center;
+    padding: 50px 20px;
+    
+}
+
+
+#background-gallery {
+    background-color: #29789A;
+}
+
+
+
+/* Event page -----------------------------------------------*/
+
+.calendar {
+    margin: 100px 0 150px 160px;
+    color: white;
+}
+
+th {
+    padding: 10px;
+    border-top: solid 2px #000;
+    border-bottom: solid 2px #000;
+    font-weight: bold;
+}
+
+td {
+    padding: 5px;
+    border: solid 1px #000;
+}
+
+#text {
+    text-align: center;
+    font-size: small;
+    padding-bottom: 10px;
+}
+
+
+/* Contact page --------------------------------------------*/
+
+
+
+h1 {
+    padding: 0 0 0 10px;
+    font-size: 1.5em;
+}
+
+#contact, #location {
+  background-color: #29789A;  
+}
+
+#contact {
+    float: left;
+    padding: 65px 3% 0 3%;
+    font-size: 1.5em;
+    color: #fff;    
+    font-family: 'Libre Baskerville', helvetica, sans-serif;
+    width: 29%;
+}
+
+#textbox {
+    padding-left: 87px;
+}
+
+.phone-number a {
+    text-decoration: none;
+    color: white;
+}
+
+#location {
+    float: left;
+    padding: 60px 0;
+    font-family: 'Libre Baskerville', helvetica, sans-serif; 
+    font-size: 1.5em;
+    color: #fff;
+    width: 65%;
+}
+
+.map { 
+    font-size: 1.5em;
+    text-align: center;
+}
+
+footer {
+    background-color: #29789A;
+    color: #fff;
+}
+
+/* Responsive Google iframe ------------------------------------ */ 
+
+  .responsive-iframe-container {
+  	position: relative;
+  	padding-bottom: 56.25%;
+  	padding-top: 30px;
+  	height: 0;
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    z-index: 1;
+  }
+
+  .responsive-iframe-container iframe,
+  .vresponsive-iframe-container object, 
+  .vresponsive-iframe-container embed {  
+    position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+    height: 100%;
+  }
+
+
+
+
+
+/*=======================
+
+    Media Queries
+
+========================*/
+
+
+/* Desktop range ----------------------------------------------*/
+
+@media (min-width: 1024px) {
+  
+  #wrapper {
+    width: 1024px;    
+    margin: 0 auto;
+}
+    
+
+  #logo {
+    padding: 20px 2%;
+    width: 21%;
+    float: left;
+}
+    
+    
+  #title {
+    padding: 60px 2% 0 2%;
+    width: 71%;
+    float: right;
+    
+}
+
+    
+  .pastry {
+    clear: right;
+    float: left;
+    margin: 20px 20px 0 20px;
+}
+ 
+  .hours {  
+    margin: 20px 20px 0 20px;
+}
+    
+  #leftcol p {
+    padding: 20px;
+}
+    
+  #borderone {
+    border-bottom: 3px solid white;
+    margin: 60px 0 30px 0;
+}
+    
+  #fishcake {
+    float: left;
+    margin: 10px;
+}
+
+  #fishcabbage {
+    float: left;
+    margin: 10px 0 0 30px;
+}
+
+  #meatball {
+    padding: 10px 10px;
+}
+
+  #bordertwo {
+    border-bottom: 3px solid white;
+    padding-top: 30px;
+}
+    
+  footer {
+        padding: 20px 0 20px 20px;
+    }
+
+}
+    
+/* Tablet range ---------------------------------------------------*/
+
+@media (min-width: 481px) and (max-width: 1023px) {
+ 
+   /* Home Page -----*/
+    #logo {
+        width: 134px;
+        margin: 0 auto;
+        padding-top: 20px;
+    }
+    
+    #title {
+       text-align: center;
+       padding: 20px 2% 10px 2%;
+        
+    }
+    
+    .pastry {
+        margin: 20px 0 20px 20px;
+    }
+    
+    .hours {
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    
+    .welcome {
+        text-align: justify;
+    }
+    
+    .cab {
+        float: left;
+        margin: 20px 0 20px 0;
+    }
+    
+    .cake {
+        float: right;
+        margin: 20px 0 20px 0;
+    }
+    
+    .ball {        
+        display: none;
+    }
+    
+    footer {
+        margin-bottom: 20px;
+    }
+    
+    /* About Page -----*/
+    
+    .history {
+        padding: 10px;
+    }
+    
+    .takk {
+        margin: 0 0 20px 0;
+        max-width: 100%;
+    }
+    
+    .aboutfooter {
+        border: 0;
+    }
+    
+    /* Menu Page -----*/
+
+.photographer {
+        margin: 0 0 20px 0;
+        max-width: 100%;
+    }
+    
+    /* Events Page -----*/
+    
+    .calendar {
+        margin: 0 0 20px 0;
+        width: 100%;
+    }
+    
+    /* Contact Page -----*/
+    
+    #contact {
+        width: 100%;
+        margin-left: 190px;
+    }
+    
+    #location {
+        margin: 120px;
+    }
+    
+}
+
+/* Mobile range ------------------------------------------------*/
+
+@media (max-width: 480px) {
+ 
+    /* Home Page -----*/
+ 
+#logo {
+    padding: 20px 2%;
+    width: 21%;
+    float: left;
+}
+    
+    
+ #title {
+    padding: 20px 2% 10px 2%;
+    width: 71%;
+    float: right;
+    
+}
+    
+    #navlist, li, a {
+        letter-spacing: 2px; 
+    }
+    
+    .pastry {
+        margin: 20px 0 20px 0;
+    }
+    
+    .hours {
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    
+    .welcome {
+        text-align: justify;
+    }
+    
+ .cab, .cake, .ball {
+        display: none;
+    }
+    
+     
+    footer {
+        margin: 20px 0 20px 0;
+    }
+    
+    .aboutfooter {
+        border: 0;
+    }
+    
+     /* About Page -----*/
+    
+    .samantha {
+        width: 70%;
+    }
+    
+    .history {
+        margin-left: 40px;
+        text-align: justify;
+    }
+    
+    .takk {
+        margin: 0;
+        max-width: 100%;
+    }
+    
+    /* Menu Page -----*/
+    
+    .photographer {
+        margin: 0;
+        max-width: 100%;
+    }
+    
+    /* Events Page -----*/
+    
+    .calendar {
+        margin: 0;
+        width: 100%;
+    }
+    
+    /* Gallery Page -----*/
+    
+.norway-video {
+	position:relative;
+	padding-bottom:56.25%;
+	padding-top:30px;
+	height:0;
+	overflow:hidden;
+}
+
+.norway-video iframe, .norway-video object, .norway-video embed {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+    
+    /* Contact Page -----*/
+    
+    #location {
+        display: none;
+    }
+    
+    #contact {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+}
